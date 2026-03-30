@@ -1,0 +1,42 @@
+<mat-toolbar class="site-toolbar">
+  <div class="container-lg toolbar-content">
+    <a class="brand-mark" routerLink="/" aria-label="EasyJSON home">
+      <span class="brand-badge">EJ</span>
+      <span class="brand-copy">
+        <strong>EasyJSON</strong>
+        <small>JSON test payloads</small>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      @for (item of navItems; track item.path) {
+        <a
+          mat-button
+          class="nav-link"
+          [routerLink]="item.path"
+          routerLinkActive="active-link"
+          [routerLinkActiveOptions]="{ exact: item.path === '/' }"
+        >
+          {{ item.label }}
+        </a>
+      }
+    </nav>
+
+    <button
+      mat-stroked-button
+      class="mobile-menu-button"
+      [matMenuTriggerFor]="mobileMenu"
+      type="button"
+    >
+      Menu
+    </button>
+  </div>
+</mat-toolbar>
+
+<mat-menu #mobileMenu="matMenu" xPosition="before">
+  @for (item of navItems; track item.path) {
+    <a mat-menu-item [routerLink]="item.path">
+      {{ item.label }}
+    </a>
+  }
+</mat-menu>

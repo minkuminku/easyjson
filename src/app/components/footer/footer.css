@@ -1,0 +1,36 @@
+:host {
+  display: block;
+}
+
+.site-footer {
+  padding: 1.5rem 0;
+  border-top: 1px solid rgba(148, 163, 184, 0.18);
+  background: rgba(15, 23, 42, 0.96);
+  color: #cbd5e1;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.footer-title {
+  margin: 0 0 0.25rem;
+  font-weight: 700;
+  color: #f8fafc;
+}
+
+.footer-copy,
+.footer-meta {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 767.98px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

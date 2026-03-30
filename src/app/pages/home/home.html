@@ -1,0 +1,72 @@
+<section class="hero-section">
+  <div class="container-lg">
+    <div class="row align-items-center g-4">
+      <div class="col-12 col-lg-7">
+        <mat-chip-set>
+          <mat-chip>Static JSON</mat-chip>
+          <mat-chip>API Mocking</mat-chip>
+          <mat-chip>Mobile Ready</mat-chip>
+        </mat-chip-set>
+        <h1 class="hero-title">A clean testing hub for quick JSON responses.</h1>
+        <p class="hero-copy">
+          Placeholder sections today, ready for static and dynamic payloads tomorrow.
+          Use the cards below to open sample JSON files straight from the public directory.
+        </p>
+        <div class="hero-actions">
+          <a mat-raised-button color="primary" href="#json-links">Explore JSON</a>
+          <a mat-stroked-button href="/about">Project outline</a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5">
+        <mat-card class="hero-panel">
+          <mat-card-content>
+            <p class="panel-label">Home placeholder</p>
+            <h2>Reserved for future dashboard content</h2>
+            <p>
+              This space can later host request builders, payload previews, filters, or live mock controls.
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="json-section" id="json-links">
+  <div class="container-lg">
+    <div class="section-heading">
+      <p class="eyebrow">Dummy JSON endpoints</p>
+      <h2>Open sample payloads directly</h2>
+      <p>Each link returns a static JSON file from the public asset directory.</p>
+    </div>
+
+    <div class="row g-4">
+      @for (item of jsonLinks; track item.path) {
+        <div class="col-12 col-md-6 col-xl-4">
+          <mat-card class="json-card h-100">
+            <mat-card-content>
+              <p class="card-path">{{ item.path }}</p>
+              <h3>{{ item.name }}</h3>
+              <p>{{ item.description }}</p>
+              @if (item.examples) {
+                <div class="example-links">
+                  <p class="example-heading">Request examples</p>
+                  @for (example of item.examples; track example.path) {
+                    <a class="example-link" [href]="example.path" target="_blank" rel="noreferrer">
+                      {{ example.path }}
+                    </a>
+                  }
+                </div>
+              }
+            </mat-card-content>
+            <mat-card-actions>
+              <a mat-flat-button color="primary" [href]="item.path" target="_blank" rel="noreferrer">
+                Open JSON
+              </a>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+      }
+    </div>
+  </div>
+</section>

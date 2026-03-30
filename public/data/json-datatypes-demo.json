@@ -1,0 +1,1502 @@
+[
+  {
+    "store": "EasyJSON Demo Shop 1",
+    "version": 1,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 501,
+      "name": "Wireless Keyboard 1"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 2",
+    "version": 2,
+    "isActive": false,
+    "notes": "sample-note-2",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 502,
+      "name": "USB-C Hub 2"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 3",
+    "version": 3,
+    "isActive": true,
+    "notes": "sample-note-3",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 503,
+      "name": "Noise-Cancelling Headset 3"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 4",
+    "version": 4,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 504,
+      "name": "4K Monitor Light 4"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 5",
+    "version": 5,
+    "isActive": true,
+    "notes": "sample-note-5",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 505,
+      "name": "Smart Desk Lamp 5"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 6",
+    "version": 6,
+    "isActive": false,
+    "notes": "sample-note-6",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 506,
+      "name": "Portable SSD 6"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 7",
+    "version": 7,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 507,
+      "name": "Mechanical Mouse 7"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 8",
+    "version": 8,
+    "isActive": false,
+    "notes": "sample-note-8",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 508,
+      "name": "Laptop Stand 8"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 9",
+    "version": 9,
+    "isActive": true,
+    "notes": "sample-note-9",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 509,
+      "name": "Wireless Keyboard 9"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 10",
+    "version": 10,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 510,
+      "name": "USB-C Hub 10"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 11",
+    "version": 11,
+    "isActive": true,
+    "notes": "sample-note-11",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 511,
+      "name": "Noise-Cancelling Headset 11"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 12",
+    "version": 12,
+    "isActive": false,
+    "notes": "sample-note-12",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 512,
+      "name": "4K Monitor Light 12"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 13",
+    "version": 13,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 513,
+      "name": "Smart Desk Lamp 13"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 14",
+    "version": 14,
+    "isActive": false,
+    "notes": "sample-note-14",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 514,
+      "name": "Portable SSD 14"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 15",
+    "version": 15,
+    "isActive": true,
+    "notes": "sample-note-15",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 515,
+      "name": "Mechanical Mouse 15"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 16",
+    "version": 16,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 516,
+      "name": "Laptop Stand 16"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 17",
+    "version": 17,
+    "isActive": true,
+    "notes": "sample-note-17",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 517,
+      "name": "Wireless Keyboard 17"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 18",
+    "version": 18,
+    "isActive": false,
+    "notes": "sample-note-18",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 518,
+      "name": "USB-C Hub 18"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 19",
+    "version": 19,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 519,
+      "name": "Noise-Cancelling Headset 19"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 20",
+    "version": 20,
+    "isActive": false,
+    "notes": "sample-note-20",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 520,
+      "name": "4K Monitor Light 20"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 21",
+    "version": 21,
+    "isActive": true,
+    "notes": "sample-note-21",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 521,
+      "name": "Smart Desk Lamp 21"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 22",
+    "version": 22,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 522,
+      "name": "Portable SSD 22"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 23",
+    "version": 23,
+    "isActive": true,
+    "notes": "sample-note-23",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 523,
+      "name": "Mechanical Mouse 23"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 24",
+    "version": 24,
+    "isActive": false,
+    "notes": "sample-note-24",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 524,
+      "name": "Laptop Stand 24"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 25",
+    "version": 25,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 525,
+      "name": "Wireless Keyboard 25"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 26",
+    "version": 26,
+    "isActive": false,
+    "notes": "sample-note-26",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 526,
+      "name": "USB-C Hub 26"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 27",
+    "version": 27,
+    "isActive": true,
+    "notes": "sample-note-27",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 527,
+      "name": "Noise-Cancelling Headset 27"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 28",
+    "version": 28,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 528,
+      "name": "4K Monitor Light 28"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 29",
+    "version": 29,
+    "isActive": true,
+    "notes": "sample-note-29",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 529,
+      "name": "Smart Desk Lamp 29"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 30",
+    "version": 30,
+    "isActive": false,
+    "notes": "sample-note-30",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 530,
+      "name": "Portable SSD 30"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 31",
+    "version": 31,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 531,
+      "name": "Mechanical Mouse 31"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 32",
+    "version": 32,
+    "isActive": false,
+    "notes": "sample-note-32",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 532,
+      "name": "Laptop Stand 32"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 33",
+    "version": 33,
+    "isActive": true,
+    "notes": "sample-note-33",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 533,
+      "name": "Wireless Keyboard 33"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 34",
+    "version": 34,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 534,
+      "name": "USB-C Hub 34"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 35",
+    "version": 35,
+    "isActive": true,
+    "notes": "sample-note-35",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 535,
+      "name": "Noise-Cancelling Headset 35"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 36",
+    "version": 36,
+    "isActive": false,
+    "notes": "sample-note-36",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 536,
+      "name": "4K Monitor Light 36"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 37",
+    "version": 37,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 537,
+      "name": "Smart Desk Lamp 37"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 38",
+    "version": 38,
+    "isActive": false,
+    "notes": "sample-note-38",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 538,
+      "name": "Portable SSD 38"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 39",
+    "version": 39,
+    "isActive": true,
+    "notes": "sample-note-39",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 539,
+      "name": "Mechanical Mouse 39"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 40",
+    "version": 40,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 540,
+      "name": "Laptop Stand 40"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 41",
+    "version": 41,
+    "isActive": true,
+    "notes": "sample-note-41",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 541,
+      "name": "Wireless Keyboard 41"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 42",
+    "version": 42,
+    "isActive": false,
+    "notes": "sample-note-42",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 542,
+      "name": "USB-C Hub 42"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 43",
+    "version": 43,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 543,
+      "name": "Noise-Cancelling Headset 43"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 44",
+    "version": 44,
+    "isActive": false,
+    "notes": "sample-note-44",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 544,
+      "name": "4K Monitor Light 44"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 45",
+    "version": 45,
+    "isActive": true,
+    "notes": "sample-note-45",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 545,
+      "name": "Smart Desk Lamp 45"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 46",
+    "version": 46,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 546,
+      "name": "Portable SSD 46"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 47",
+    "version": 47,
+    "isActive": true,
+    "notes": "sample-note-47",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 547,
+      "name": "Mechanical Mouse 47"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 48",
+    "version": 48,
+    "isActive": false,
+    "notes": "sample-note-48",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 548,
+      "name": "Laptop Stand 48"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 49",
+    "version": 49,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 549,
+      "name": "Wireless Keyboard 49"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 50",
+    "version": 50,
+    "isActive": false,
+    "notes": "sample-note-50",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 550,
+      "name": "USB-C Hub 50"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 51",
+    "version": 51,
+    "isActive": true,
+    "notes": "sample-note-51",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 551,
+      "name": "Noise-Cancelling Headset 51"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 52",
+    "version": 52,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 552,
+      "name": "4K Monitor Light 52"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 53",
+    "version": 53,
+    "isActive": true,
+    "notes": "sample-note-53",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 553,
+      "name": "Smart Desk Lamp 53"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 54",
+    "version": 54,
+    "isActive": false,
+    "notes": "sample-note-54",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 554,
+      "name": "Portable SSD 54"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 55",
+    "version": 55,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 555,
+      "name": "Mechanical Mouse 55"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 56",
+    "version": 56,
+    "isActive": false,
+    "notes": "sample-note-56",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 556,
+      "name": "Laptop Stand 56"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 57",
+    "version": 57,
+    "isActive": true,
+    "notes": "sample-note-57",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 557,
+      "name": "Wireless Keyboard 57"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 58",
+    "version": 58,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 558,
+      "name": "USB-C Hub 58"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 59",
+    "version": 59,
+    "isActive": true,
+    "notes": "sample-note-59",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 559,
+      "name": "Noise-Cancelling Headset 59"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 60",
+    "version": 60,
+    "isActive": false,
+    "notes": "sample-note-60",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 560,
+      "name": "4K Monitor Light 60"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 61",
+    "version": 61,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 561,
+      "name": "Smart Desk Lamp 61"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 62",
+    "version": 62,
+    "isActive": false,
+    "notes": "sample-note-62",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 562,
+      "name": "Portable SSD 62"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 63",
+    "version": 63,
+    "isActive": true,
+    "notes": "sample-note-63",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 563,
+      "name": "Mechanical Mouse 63"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 64",
+    "version": 64,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 564,
+      "name": "Laptop Stand 64"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 65",
+    "version": 65,
+    "isActive": true,
+    "notes": "sample-note-65",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 565,
+      "name": "Wireless Keyboard 65"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 66",
+    "version": 66,
+    "isActive": false,
+    "notes": "sample-note-66",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 566,
+      "name": "USB-C Hub 66"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 67",
+    "version": 67,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 567,
+      "name": "Noise-Cancelling Headset 67"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 68",
+    "version": 68,
+    "isActive": false,
+    "notes": "sample-note-68",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 568,
+      "name": "4K Monitor Light 68"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 69",
+    "version": 69,
+    "isActive": true,
+    "notes": "sample-note-69",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 569,
+      "name": "Smart Desk Lamp 69"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 70",
+    "version": 70,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 570,
+      "name": "Portable SSD 70"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 71",
+    "version": 71,
+    "isActive": true,
+    "notes": "sample-note-71",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 571,
+      "name": "Mechanical Mouse 71"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 72",
+    "version": 72,
+    "isActive": false,
+    "notes": "sample-note-72",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 572,
+      "name": "Laptop Stand 72"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 73",
+    "version": 73,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 573,
+      "name": "Wireless Keyboard 73"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 74",
+    "version": 74,
+    "isActive": false,
+    "notes": "sample-note-74",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 574,
+      "name": "USB-C Hub 74"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 75",
+    "version": 75,
+    "isActive": true,
+    "notes": "sample-note-75",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 575,
+      "name": "Noise-Cancelling Headset 75"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 76",
+    "version": 76,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 576,
+      "name": "4K Monitor Light 76"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 77",
+    "version": 77,
+    "isActive": true,
+    "notes": "sample-note-77",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 577,
+      "name": "Smart Desk Lamp 77"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 78",
+    "version": 78,
+    "isActive": false,
+    "notes": "sample-note-78",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 578,
+      "name": "Portable SSD 78"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 79",
+    "version": 79,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 579,
+      "name": "Mechanical Mouse 79"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 80",
+    "version": 80,
+    "isActive": false,
+    "notes": "sample-note-80",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 580,
+      "name": "Laptop Stand 80"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 81",
+    "version": 81,
+    "isActive": true,
+    "notes": "sample-note-81",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 581,
+      "name": "Wireless Keyboard 81"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 82",
+    "version": 82,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 582,
+      "name": "USB-C Hub 82"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 83",
+    "version": 83,
+    "isActive": true,
+    "notes": "sample-note-83",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 583,
+      "name": "Noise-Cancelling Headset 83"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 84",
+    "version": 84,
+    "isActive": false,
+    "notes": "sample-note-84",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 584,
+      "name": "4K Monitor Light 84"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 85",
+    "version": 85,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 585,
+      "name": "Smart Desk Lamp 85"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 86",
+    "version": 86,
+    "isActive": false,
+    "notes": "sample-note-86",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 586,
+      "name": "Portable SSD 86"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 87",
+    "version": 87,
+    "isActive": true,
+    "notes": "sample-note-87",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 587,
+      "name": "Mechanical Mouse 87"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 88",
+    "version": 88,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 588,
+      "name": "Laptop Stand 88"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 89",
+    "version": 89,
+    "isActive": true,
+    "notes": "sample-note-89",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 589,
+      "name": "Wireless Keyboard 89"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 90",
+    "version": 90,
+    "isActive": false,
+    "notes": "sample-note-90",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 590,
+      "name": "USB-C Hub 90"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 91",
+    "version": 91,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 591,
+      "name": "Noise-Cancelling Headset 91"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 92",
+    "version": 92,
+    "isActive": false,
+    "notes": "sample-note-92",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 592,
+      "name": "4K Monitor Light 92"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 93",
+    "version": 93,
+    "isActive": true,
+    "notes": "sample-note-93",
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 593,
+      "name": "Smart Desk Lamp 93"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 94",
+    "version": 94,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 594,
+      "name": "Portable SSD 94"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 95",
+    "version": 95,
+    "isActive": true,
+    "notes": "sample-note-95",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 595,
+      "name": "Mechanical Mouse 95"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 96",
+    "version": 96,
+    "isActive": false,
+    "notes": "sample-note-96",
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 596,
+      "name": "Laptop Stand 96"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 97",
+    "version": 97,
+    "isActive": true,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "typing"
+    ],
+    "featuredProduct": {
+      "id": 597,
+      "name": "Wireless Keyboard 97"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 98",
+    "version": 98,
+    "isActive": false,
+    "notes": "sample-note-98",
+    "tags": [
+      "demo",
+      "catalog",
+      "workspace"
+    ],
+    "featuredProduct": {
+      "id": 598,
+      "name": "USB-C Hub 98"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 99",
+    "version": 99,
+    "isActive": true,
+    "notes": "sample-note-99",
+    "tags": [
+      "demo",
+      "catalog",
+      "audio"
+    ],
+    "featuredProduct": {
+      "id": 599,
+      "name": "Noise-Cancelling Headset 99"
+    }
+  },
+  {
+    "store": "EasyJSON Demo Shop 100",
+    "version": 100,
+    "isActive": false,
+    "notes": null,
+    "tags": [
+      "demo",
+      "catalog",
+      "display"
+    ],
+    "featuredProduct": {
+      "id": 600,
+      "name": "4K Monitor Light 100"
+    }
+  }
+]
