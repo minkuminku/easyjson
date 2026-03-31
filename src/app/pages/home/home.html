@@ -87,13 +87,10 @@
     <div class="row g-4">
       @for (item of jsonLinks; track item.path) {
         <div class="col-12 col-md-6 col-xl-4">
-          <mat-card class="json-card h-100">
-            <mat-card-content>
+            <mat-card class="json-card h-100">
+              <mat-card-content>
               <p class="card-path">{{ item.path }}</p>
-              <div class="card-title-row">
-                <h3>{{ item.name }}</h3>
-                <span class="hits-badge">Hits: {{ hitCounts()[item.statsKey] }}</span>
-              </div>
+              <h3>{{ item.name }}</h3>
               <p>{{ item.description }}</p>
               @if (item.nestingPath) {
                 <p class="nesting-path">{{ item.nestingPath }}</p>
