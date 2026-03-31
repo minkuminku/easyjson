@@ -1,7 +1,15 @@
-import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { isPlatformBrowser } from '@angular/common';
+import { Component, PLATFORM_ID, inject, signal } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
+
+type DatasetKey =
+  | 'mock-users'
+  | 'sample-orders'
+  | 'json-datatypes-demo'
+  | 'nested-store-catalogs';
 
 @Component({
   selector: 'app-home',
@@ -10,10 +18,20 @@ import { MatChipsModule } from '@angular/material/chips';
   styleUrl: './home.css',
 })
 export class Home {
+  private readonly http = inject(HttpClient);
+  private readonly platformId = inject(PLATFORM_ID);
+
+  protected readonly hitCounts = signal<Record<DatasetKey, number>>({
+    'mock-users': 0,
+    'sample-orders': 0,
+    'json-datatypes-demo': 0,
+    'nested-store-catalogs': 0,
+  });
   protected readonly jsonLinks = [
     {
       name: 'Mock Users',
       path: '/mock-users',
+      statsKey: 'mock-users' as const,
       description: '100 mock users with optional limit, offset, page, and pageSize support.',
       examples: [
         { label: 'All users', path: '/mock-users' },
@@ -25,6 +43,7 @@ export class Home {
     {
       name: 'Sample Orders',
       path: '/sample-orders',
+      statsKey: 'sample-orders' as const,
       description: '200 sample orders with optional limit, offset, page, and pageSize support.',
       examples: [
         { label: 'All orders', path: '/sample-orders' },
@@ -36,6 +55,7 @@ export class Home {
     {
       name: 'JSON Datatypes Demo',
       path: '/json-datatypes-demo',
+      statsKey: 'json-datatypes-demo' as const,
       description: '100 sample records designed to exercise all JSON datatypes with optional pagination.',
       nestingPath: 'store --> featuredProduct',
       examples: [
@@ -48,6 +68,7 @@ export class Home {
     {
       name: 'Nested Store Catalogs',
       path: '/nested-store-catalogs',
+      statsKey: 'nested-store-catalogs' as const,
       description:
         '50 nested e-commerce store records with categories, products, and variants plus optional pagination.',
       nestingPath: 'store --> categories --> products --> variants',
@@ -65,4 +86,17 @@ export class Home {
       ],
     },
   ];
+
+  constructor() {
+    if (isPlatformBrowser(this.platformId)) {
+      this.http
+        .get<Partial<Record<DatasetKey, number>>>('/api/request-stats')
+        .subscribe((counts) =>
+          this.hitCounts.update((currentCounts) => ({
+            ...currentCounts,
+            ...counts,
+          })),
+        );
+    }
+  }
 }

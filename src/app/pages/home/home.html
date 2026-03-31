@@ -46,7 +46,10 @@
           <mat-card class="json-card h-100">
             <mat-card-content>
               <p class="card-path">{{ item.path }}</p>
-              <h3>{{ item.name }}</h3>
+              <div class="card-title-row">
+                <h3>{{ item.name }}</h3>
+                <span class="hits-badge">Hits: {{ hitCounts()[item.statsKey] }}</span>
+              </div>
               <p>{{ item.description }}</p>
               @if (item.nestingPath) {
                 <p class="nesting-path">{{ item.nestingPath }}</p>
