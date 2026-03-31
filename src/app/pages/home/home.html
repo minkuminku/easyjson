@@ -48,6 +48,9 @@
               <p class="card-path">{{ item.path }}</p>
               <h3>{{ item.name }}</h3>
               <p>{{ item.description }}</p>
+              @if (item.nestingPath) {
+                <p class="nesting-path">{{ item.nestingPath }}</p>
+              }
               @if (item.examples) {
                 <div class="example-links">
                   <p class="example-heading">Request examples</p>

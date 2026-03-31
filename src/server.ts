@@ -46,6 +46,26 @@ type JsonDatatypesDemo = {
   };
 };
 
+type NestedStoreCatalog = {
+  storeId: string;
+  storeName: string;
+  currency: string;
+  categories: {
+    categoryId: string;
+    categoryName: string;
+    products: {
+      productId: string;
+      name: string;
+      price: number;
+      variants: {
+        variantId: string;
+        color: string;
+        stock: number;
+      }[];
+    }[];
+  }[];
+};
+
 const resolveDataFilePath = (fileName: string): string => {
   const candidatePaths = [
     join(process.cwd(), `public/data/${fileName}`),
@@ -70,6 +90,11 @@ const readJsonDatatypesDemo = (): JsonDatatypesDemo[] =>
   JSON.parse(
     readFileSync(resolveDataFilePath('json-datatypes-demo.json'), 'utf-8'),
   ) as JsonDatatypesDemo[];
+
+const readNestedStoreCatalogs = (): NestedStoreCatalog[] =>
+  JSON.parse(
+    readFileSync(resolveDataFilePath('nested-store-catalogs.json'), 'utf-8'),
+  ) as NestedStoreCatalog[];
 
 const parsePositiveInteger = (value: unknown): number | null => {
   if (typeof value !== 'string' || value.trim() === '') {
@@ -118,6 +143,10 @@ app.get('/sample-orders', (req, res) => {
 
 app.get('/json-datatypes-demo', (req, res) => {
   res.json(sliceCollection(readJsonDatatypesDemo(), req.query));
+});
+
+app.get('/nested-store-catalogs', (req, res) => {
+  res.json(sliceCollection(readNestedStoreCatalogs(), req.query));
 });
 
 /**

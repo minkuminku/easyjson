@@ -19,4 +19,10 @@ describe('Home', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should expose the nested store catalogs example', () => {
+    expect(
+      component['jsonLinks'].some((item) => item.path === '/nested-store-catalogs'),
+    ).toBe(true);
+  });
 });

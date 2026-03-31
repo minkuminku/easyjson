@@ -37,11 +37,31 @@ export class Home {
       name: 'JSON Datatypes Demo',
       path: '/json-datatypes-demo',
       description: '100 sample records designed to exercise all JSON datatypes with optional pagination.',
+      nestingPath: 'store --> featuredProduct',
       examples: [
         { label: 'All examples', path: '/json-datatypes-demo' },
         { label: 'First 10', path: '/json-datatypes-demo?limit=10' },
         { label: 'Offset 20, limit 10', path: '/json-datatypes-demo?offset=20&limit=10' },
         { label: 'Page 2, size 25', path: '/json-datatypes-demo?page=2&pageSize=25' },
+      ],
+    },
+    {
+      name: 'Nested Store Catalogs',
+      path: '/nested-store-catalogs',
+      description:
+        '50 nested e-commerce store records with categories, products, and variants plus optional pagination.',
+      nestingPath: 'store --> categories --> products --> variants',
+      examples: [
+        { label: 'All stores', path: '/nested-store-catalogs' },
+        { label: 'First 5 stores', path: '/nested-store-catalogs?limit=5' },
+        {
+          label: 'Offset 10, limit 5',
+          path: '/nested-store-catalogs?offset=10&limit=5',
+        },
+        {
+          label: 'Page 2, size 10',
+          path: '/nested-store-catalogs?page=2&pageSize=10',
+        },
       ],
     },
   ];
