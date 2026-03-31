@@ -37,7 +37,7 @@ describe('Home', () => {
 
   it('should expose the nested store catalogs example', () => {
     expect(
-      component['jsonLinks'].some((item) => item.path === '/nested-store-catalogs'),
+      component['jsonLinks'].some((item) => item.path === '/data/nested-store-catalogs.json'),
     ).toBe(true);
   });
 

@@ -30,60 +30,34 @@ export class Home {
   protected readonly jsonLinks = [
     {
       name: 'Mock Users',
-      path: '/mock-users',
+      path: '/data/mock-users.json',
       statsKey: 'mock-users' as const,
-      description: '100 mock users with optional limit, offset, page, and pageSize support.',
-      examples: [
-        { label: 'All users', path: '/mock-users' },
-        { label: 'First 10', path: '/mock-users?limit=10' },
-        { label: 'Offset 20, limit 10', path: '/mock-users?offset=20&limit=10' },
-        { label: 'Page 2, size 25', path: '/mock-users?page=2&pageSize=25' },
-      ],
+      description: '100 mock users served as a static JSON file for quick frontend and API testing.',
+      examples: [{ label: 'Open JSON file', path: '/data/mock-users.json' }],
     },
     {
       name: 'Sample Orders',
-      path: '/sample-orders',
+      path: '/data/sample-orders.json',
       statsKey: 'sample-orders' as const,
-      description: '200 sample orders with optional limit, offset, page, and pageSize support.',
-      examples: [
-        { label: 'All orders', path: '/sample-orders' },
-        { label: 'First 10', path: '/sample-orders?limit=10' },
-        { label: 'Offset 20, limit 10', path: '/sample-orders?offset=20&limit=10' },
-        { label: 'Page 2, size 25', path: '/sample-orders?page=2&pageSize=25' },
-      ],
+      description: '200 sample orders served as a static JSON file for UI flows, demos, and API checks.',
+      examples: [{ label: 'Open JSON file', path: '/data/sample-orders.json' }],
     },
     {
       name: 'JSON Datatypes Demo',
-      path: '/json-datatypes-demo',
+      path: '/data/json-datatypes-demo.json',
       statsKey: 'json-datatypes-demo' as const,
-      description: '100 sample records designed to exercise all JSON datatypes with optional pagination.',
+      description: '100 sample records designed to demonstrate common JSON datatypes in a static file.',
       nestingPath: 'store --> featuredProduct',
-      examples: [
-        { label: 'All examples', path: '/json-datatypes-demo' },
-        { label: 'First 10', path: '/json-datatypes-demo?limit=10' },
-        { label: 'Offset 20, limit 10', path: '/json-datatypes-demo?offset=20&limit=10' },
-        { label: 'Page 2, size 25', path: '/json-datatypes-demo?page=2&pageSize=25' },
-      ],
+      examples: [{ label: 'Open JSON file', path: '/data/json-datatypes-demo.json' }],
     },
     {
       name: 'Nested Store Catalogs',
-      path: '/nested-store-catalogs',
+      path: '/data/nested-store-catalogs.json',
       statsKey: 'nested-store-catalogs' as const,
       description:
-        '50 nested e-commerce store records with categories, products, and variants plus optional pagination.',
+        '50 nested e-commerce store records with categories, products, and variants in a static JSON file.',
       nestingPath: 'store --> categories --> products --> variants',
-      examples: [
-        { label: 'All stores', path: '/nested-store-catalogs' },
-        { label: 'First 5 stores', path: '/nested-store-catalogs?limit=5' },
-        {
-          label: 'Offset 10, limit 5',
-          path: '/nested-store-catalogs?offset=10&limit=5',
-        },
-        {
-          label: 'Page 2, size 10',
-          path: '/nested-store-catalogs?page=2&pageSize=10',
-        },
-      ],
+      examples: [{ label: 'Open JSON file', path: '/data/nested-store-catalogs.json' }],
     },
   ];
 
