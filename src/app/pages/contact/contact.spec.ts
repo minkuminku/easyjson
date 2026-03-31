@@ -19,4 +19,9 @@ describe('Contact', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render the real contact email', () => {
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.textContent).toContain('mayanktayal@proton.me');
+  });
 });
