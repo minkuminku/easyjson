@@ -40,4 +40,10 @@ describe('Home', () => {
       component['jsonLinks'].some((item) => item.path === '/nested-store-catalogs'),
     ).toBe(true);
   });
+
+  it('should render the quick usage guidance', () => {
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.textContent).toContain('Open an endpoint and inspect the raw JSON instantly.');
+    expect(compiled.textContent).toContain('GET /sample-orders?limit=2');
+  });
 });

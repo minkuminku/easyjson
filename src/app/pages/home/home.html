@@ -20,11 +20,56 @@
       <div class="col-12 col-lg-5">
         <mat-card class="hero-panel">
           <mat-card-content>
-            <p class="panel-label">Home placeholder</p>
-            <h2>Reserved for future dashboard content</h2>
+            <p class="panel-label">How It Works</p>
+            <h2>Open an endpoint and inspect the raw JSON instantly.</h2>
             <p>
-              This space can later host request builders, payload previews, filters, or live mock controls.
+              Pick any dataset card below, click <strong>Open JSON</strong>, and the browser will
+              show the raw response directly. You can use the same URL in Postman, frontend apps,
+              mobile clients, or demo environments.
             </p>
+
+            <div class="usage-steps" aria-label="EasyJSON quick steps">
+              <div class="usage-step">
+                <span class="step-number">1</span>
+                <div>
+                  <p class="step-title">Choose a sample dataset</p>
+                  <p>Users, orders, datatype demos, or nested e-commerce records.</p>
+                </div>
+              </div>
+              <div class="usage-step">
+                <span class="step-number">2</span>
+                <div>
+                  <p class="step-title">Open the JSON URL</p>
+                  <p>Use the card button or copy a query example with pagination params.</p>
+                </div>
+              </div>
+              <div class="usage-step">
+                <span class="step-number">3</span>
+                <div>
+                  <p class="step-title">Test the response anywhere</p>
+                  <p>Paste the same endpoint into Postman or connect it to your UI.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="preview-shell" aria-label="Raw JSON response preview">
+              <div class="preview-toolbar">
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <code>GET /sample-orders?limit=2</code>
+              </div>
+              <pre class="preview-code">[
+  &#123;
+    "orderId": "ORD-1001",
+    "status": "processing"
+  &#125;,
+  &#123;
+    "orderId": "ORD-1002",
+    "status": "shipped"
+  &#125;
+]</pre>
+            </div>
           </mat-card-content>
         </mat-card>
       </div>
@@ -37,7 +82,7 @@
     <div class="section-heading">
       <p class="eyebrow">Dummy JSON endpoints</p>
       <h2>Open sample payloads directly</h2>
-      <p>Each link returns a static JSON file from the public asset directory.</p>
+      <p>Each link returns a static JSON response.</p>
     </div>
 
     <div class="row g-4">

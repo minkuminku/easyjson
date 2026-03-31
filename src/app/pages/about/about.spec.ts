@@ -19,4 +19,11 @@ describe('About', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render the product purpose copy', () => {
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.textContent).toContain(
+      'EasyJSON provides simple JSON responses for testing, prototyping, and learning.',
+    );
+  });
 });
