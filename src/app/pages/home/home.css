@@ -48,7 +48,8 @@
 
 .panel-label,
 .eyebrow,
-.card-path {
+.card-path,
+.card-status {
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.75rem;
@@ -56,8 +57,16 @@
   margin-bottom: 0.75rem;
 }
 
+.card-status {
+  margin-bottom: 0.4rem;
+}
+
 .json-section {
   padding: 1rem 0 4.5rem;
+}
+
+.api-section {
+  padding: 0 0 4.5rem;
 }
 
 .section-heading {
@@ -193,6 +202,47 @@
 .example-link:hover {
   color: #475569;
   text-decoration: underline;
+}
+
+.api-card {
+  background:
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.12), transparent 24%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(239, 246, 255, 0.9));
+}
+
+.api-card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  align-items: flex-start;
+}
+
+.api-card-meta {
+  width: 100%;
+}
+
+.api-status {
+  color: #0284c7;
+}
+
+.capability-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1.05rem;
+}
+
+.capability-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.42rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(125, 211, 252, 0.5);
+  background: rgba(255, 255, 255, 0.85);
+  color: #0c4a6e;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .json-card mat-card-actions {

@@ -81,14 +81,15 @@
     <div class="section-heading">
       <p class="eyebrow">Dummy JSON endpoints</p>
       <h2>Open sample payloads directly</h2>
-      <p>Each link returns a static JSON response.</p>
+      <p>Browse static JSON files and the first API-backed dataset from one place.</p>
     </div>
 
     <div class="row g-4">
-      @for (item of jsonLinks; track item.path) {
+      @for (item of staticJsonLinks; track item.path) {
         <div class="col-12 col-md-6 col-xl-4">
-            <mat-card class="json-card h-100">
-              <mat-card-content>
+          <mat-card class="json-card h-100">
+            <mat-card-content>
+              <p class="card-status">{{ item.status }}</p>
               <p class="card-path">{{ item.path }}</p>
               <h3>{{ item.name }}</h3>
               <p>{{ item.description }}</p>
@@ -109,6 +110,60 @@
             <mat-card-actions>
               <a mat-flat-button color="primary" [href]="item.path" target="_blank" rel="noreferrer">
                 Open JSON
+              </a>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<section class="api-section">
+  <div class="container-lg">
+    <div class="section-heading">
+      <p class="eyebrow">API</p>
+      <h2>API-ready dataset cards</h2>
+      <p>These cards describe dynamic endpoints we can expand later without changing the page structure.</p>
+    </div>
+
+    <div class="row g-4">
+      @for (item of apiLinks; track item.path) {
+        <div class="col-12 col-md-6 col-xl-4">
+          <mat-card class="json-card api-card h-100">
+            <mat-card-content>
+              <div class="api-card-header">
+                <div class="api-card-meta">
+                  <p class="card-status api-status">{{ item.status }}</p>
+                  <p class="card-path">{{ item.path }}</p>
+                </div>
+              </div>
+
+              <h3>{{ item.name }}</h3>
+              <p>{{ item.description }}</p>
+
+              @if (item.capabilities?.length) {
+                <div class="capability-tags" aria-label="API endpoint capabilities">
+                  @for (capability of item.capabilities; track capability.label) {
+                    <span class="capability-tag" [attr.title]="capability.detail">{{ capability.label }}</span>
+                  }
+                </div>
+              }
+
+              @if (item.examples) {
+                <div class="example-links">
+                  <p class="example-heading">Request examples</p>
+                  @for (example of item.examples; track example.path) {
+                    <a class="example-link" [href]="example.path" target="_blank" rel="noreferrer">
+                      {{ example.label }}: {{ example.path }}
+                    </a>
+                  }
+                </div>
+              }
+            </mat-card-content>
+            <mat-card-actions>
+              <a mat-flat-button color="primary" [href]="item.path" target="_blank" rel="noreferrer">
+                Open API Route
               </a>
             </mat-card-actions>
           </mat-card>
