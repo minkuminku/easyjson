@@ -66,7 +66,7 @@ def response(status_code: int, body: Any) -> dict[str, Any]:
             "content-type": "application/json",
             "access-control-allow-origin": "*",
         },
-        "body": json.dumps(body),
+        "body": json.dumps(body, indent=2),
     }
 
 
